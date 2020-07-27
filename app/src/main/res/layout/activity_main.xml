@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- add Camera Button to open the Camera-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/camera_button"
+        android:text="Camera" />
+
+    <!-- add ImageView to display the captured image-->
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_width="350dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="450dp"
+        android:id="@+id/click_image"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/click_image"
+        android:layout_alignLeft="@id/click_image"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/hint_button"
+        android:text="Get Hint" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/click_image"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/solution_button"
+        android:text="Get Solution" />
+
+
+</RelativeLayout>
