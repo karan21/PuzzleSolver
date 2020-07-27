@@ -1,3 +1,4 @@
+include ':Reader'
 include ':DataModels'
 include ':app'
 rootProject.name = "PuzzleSolver"
