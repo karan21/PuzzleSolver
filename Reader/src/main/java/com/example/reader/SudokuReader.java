@@ -1,5 +1,6 @@
 package com.example.reader;
 
-public class SudokuReader extends GameReader {
+public abstract class SudokuReader extends GameReader
+{
 
 }
