@@ -4,7 +4,8 @@ import android.graphics.Bitmap;
 
 import com.example.datamodels.IGameState;
 
-public abstract class GameReader {
+public abstract class GameReader
+{
     public static GameReader Create(){
         return new OpenCVSudokuReader();
     }

@@ -1,6 +1,7 @@
 package com.example.datamodels;
 
-public enum CellSource {
+public enum CellSource
+{
     Initialized,
     UserMarked,
     BotSuggested
